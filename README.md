@@ -2,7 +2,7 @@
 
 通用工具库与 Cesium、Mapbox 原生 API 的 TypeScript 导出。
 
-Cesium 和 Mapbox 是可选的 peer dependency。仅使用通用工具时无需安装地图引擎；使用对应原生 API 时，在消费者项目中安装所需引擎，并从专用子路径导入：
+Cesium 和 Mapbox 是可选的 peer dependency，支持的版本范围分别为 `cesium@^1.146.0` 和 `mapbox-gl@^3.32.0`。仅使用通用工具时无需安装地图引擎；使用对应原生 API 时，在消费者项目中安装所需引擎，并从专用子路径导入：
 
 ```ts
 import { cesium } from "unified-toolkit/cesium";
